@@ -1,0 +1,9 @@
+{
+    "editor.insertSpaces": false,
+    "tslint.enable": true,
+    "typescript.tsc.autoDetect": "off",
+    "typescript.preferences.quoteStyle": "single",
+    "files.exclude": { "out": false },
+    "search.exclude": { "out": true },
+    "typescript.tsdk": "./node_modules/typescript/lib"
+}
