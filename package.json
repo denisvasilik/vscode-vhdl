@@ -3,7 +3,7 @@
   "displayName": "VHDL",
   "description": "VHDL Extension for VS Code",
   "version": "0.0.1",
-  "publisher": "Denis Vasilik",
+  "publisher": "denisvasilik",
   "engines": {
     "vscode": "^1.18.0"
   },
