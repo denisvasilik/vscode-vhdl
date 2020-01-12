@@ -39,8 +39,7 @@
         },
         {
             "name": "string.quoted.single.vhdl",
-            "begin": "'",
-            "end": "'"
+            "match": "'[01uUxXzZwWlLhH\\-]'"
         }
     ],
     "repository":
@@ -49,27 +48,7 @@
                 "patterns": [
                     {
                         "name": "comment.block.vhdl",
-                        "begin": "/\\*",
-                        "beginCaptures": {
-                            "0": {
-                                "name": "punctuation.definition.comment.vhdl"
-                            }
-                        },
-                        "end": "\\*/",
-                        "endCaptures": {
-                            "0": {
-                                "name": "punctuation.definition.comment.vhdl"
-                            }
-                        }
-                    }, {
-                        "begin": "(^\\s+)?(?=//)",
-                        "beginCaptures": {
-                            "1": {
-                                "name": "punctuation.whitespace.comment.leading.cs"
-                            }
-                        },
-                        "end": "(?=$)",
-                        "name":"comment.line.vhdl"
+                        "match": "--.*$\n?"
                     }
                 ]
             }
