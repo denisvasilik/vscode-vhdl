@@ -1,3 +1,4 @@
 out/
 node_modules/
 resources/
+package-lock.json
