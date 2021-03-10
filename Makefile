@@ -1,6 +1,6 @@
 
 fetch-language-server:
-	cp ../eccelerators-vhdl-ls/com.eccelerators.plugins.vhdl.ide/build/distributions/language-server.zip resources
+	cp ../language-server-vhdl/com.eccelerators.plugins.vhdl.ide/build/distributions/language-server.zip resources
 	(cd resources && \
 	 rm -rf lib bin && \
 	 unzip language-server.zip && \
