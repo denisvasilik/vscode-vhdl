@@ -1,6 +1,6 @@
 {
-  "name": "vhdl",
-  "displayName": "VHDL",
+  "name": "vscode-vhdl",
+  "displayName": "VS Code VHDL",
   "description": "VHDL Extension for VS Code",
   "version": "0.0.3",
   "publisher": "denisvasilik",
