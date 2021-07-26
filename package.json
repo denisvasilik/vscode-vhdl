@@ -2,7 +2,7 @@
   "name": "vscode-vhdl",
   "displayName": "VS Code VHDL",
   "description": "VHDL Extension for VS Code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "denisvasilik",
   "engines": {
     "vscode": "^1.18.0"
